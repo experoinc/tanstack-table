@@ -11,6 +11,10 @@ types
 build
 dist
 lib
+!/packages/table-core/build/
+!/packages/table-core/build/lib/
+!/packages/react-table/build/
+!/packages/react-table/build/lib/
 es
 artifacts
 .rpt2_cache

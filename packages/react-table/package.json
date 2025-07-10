@@ -1,6 +1,6 @@
 {
   "name": "@tanstack/react-table",
-  "version": "8.21.3",
+  "version": "8.21.3-memfix.0",
   "description": "Headless UI for building powerful tables & datagrids for React.",
   "author": "Tanner Linsley",
   "license": "MIT",
@@ -51,7 +51,7 @@
     "build:types": "tsc --emitDeclarationOnly"
   },
   "dependencies": {
-    "@tanstack/table-core": "workspace:*"
+    "@tanstack/table-core": "github:experoinc/tanstack-table#v8.21.3-memfix.0&path:/packages/table-core"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

@@ -211,8 +211,9 @@ export function getMemoOptions(
   key: string,
   onChange?: (result: any) => void
 ) {
+  const d = tableOptions?.debugAll ?? tableOptions[debugLevel]
   return {
-    debug: () => tableOptions?.debugAll ?? tableOptions[debugLevel],
+    debug: () => d,
     key: process.env.NODE_ENV === 'development' && key,
     onChange,
   }
